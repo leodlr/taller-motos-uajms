@@ -1,0 +1,24 @@
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# Dependencias y artefactos
+vendor/
+node_modules/
+
+# Configuración local y secretos
+.env
+*.local.php
+
+# Logs, respaldos y temporales
+*.log
+respaldo*.sql
+*.tmp
+
+# Ignorar documentos de /docs excepto las capturas del prototipo
+/docs/*
+!/docs/capturas/
